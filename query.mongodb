@@ -1,0 +1,18 @@
+use("football");
+// consultar usuarios
+db.users.find({});
+
+
+use("football");
+// insertar usuario
+db.users.insertOne({
+    _id: 1,
+    full_name: "Ronaldo Jiménez Acosta",
+    username: "jimcostdev",
+    email: "jimcostdev@gmail.com",
+    password: "Cambiar123*", // encriptar
+    secret: "frase-secreta",
+    roles: ["admin", "user"],
+    created_at: new Date(),
+    uppdated_at: new Date(),
+})
