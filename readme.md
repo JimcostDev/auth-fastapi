@@ -1,10 +1,13 @@
-## Auth con FastApi
+## Auth con FastAPI
 
 Este repositorio proporciona una implementación de autenticación utilizando FastAPI y MongoDB.
 
 ### Requisitos previos
 
-Asegúrate de tener instalado Python 3.6 o superior.
+### Requisitos previos
+
+Asegúrate de tener instalado Python 3.6 o superior y crea una cuenta en MongoDB Atlas. Puedes registrarte y configurar una base de datos gratuita en [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).
+
 
 ### Instrucciones de configuración
 
@@ -115,5 +118,11 @@ Si te ha sido útil este proyecto, considera apoyarlo dando una estrella en GitH
 
 ### Recursos adicionales
 
+### Recursos adicionales
+
+- [Documentación de FastAPI](https://fastapi.tiangolo.com/)
+- [Documentación de MongoDB](https://docs.mongodb.com/)
+- [Repositorio personal sobre MongoDB](https://github.com/JimcostDev/mongodb_developer_path)
 - **Video tutorial:** En este [video](https://youtu.be/BZZOuM1UpyI) te enseño a crear tu primera API y desplegarla.
+
 

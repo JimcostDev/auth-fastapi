@@ -16,3 +16,23 @@ db.users.insertOne({
     created_at: new Date(),
     uppdated_at: new Date(),
 })
+
+
+// insertar teams
+use("football");
+db.teams.insertMany([
+    { name: "Juventus", league: "Serie A", country: "Italy" },
+    { name: "AC Milan", league: "Serie A", country: "Italy" },
+    { name: "Bayern Munich", league: "Bundesliga", country: "Germany" },
+    { name: "Borussia Dortmund", league: "Bundesliga", country: "Germany" },
+    { name: "Real Madrid", league: "La Liga", country: "Spain" },
+    { name: "Barcelona", league: "La Liga", country: "Spain" },
+    { name: "Manchester City", league: "Premier League", country: "England" },
+    { name: "Liverpool", league: "Premier League", country: "England" },
+    { name: "Inter Milan", league: "Serie A", country: "Italy" },
+    { name: "AS Roma", league: "Serie A", country: "Italy" }
+  ]);
+
+// consultar equipos
+use("football");
+db.teams.find({});
