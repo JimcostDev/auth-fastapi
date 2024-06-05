@@ -4,8 +4,6 @@ Este repositorio proporciona una implementación de autenticación utilizando Fa
 
 ### Requisitos previos
 
-### Requisitos previos
-
 Asegúrate de tener instalado Python 3.6 o superior y crea una cuenta en MongoDB Atlas. Puedes registrarte y configurar una base de datos gratuita en [MongoDB Atlas](https://www.mongodb.com/cloud/atlas).
 
 
@@ -118,7 +116,6 @@ Si te ha sido útil este proyecto, considera apoyarlo dando una estrella en GitH
 
 [Repositorio en GitHub](https://github.com/JimcostDev/auth-fastapi)
 
-### Recursos adicionales
 
 ### Recursos adicionales
 
