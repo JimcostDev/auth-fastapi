@@ -14,6 +14,8 @@ Asegúrate de tener instalado Python 3.6 o superior y crea una cuenta en MongoDB
 1. **Clona este repositorio ejecutando el siguiente comando:**
     ```bash
     git clone https://github.com/JimcostDev/auth-fastapi.git
+    ```
+    ```bash
     cd auth-fastapi
     ```
 
