@@ -1,4 +1,4 @@
-fastapi['standard']==0.115.6
+fastapi[standard]==0.115.6
 pymongo==4.10.1
 python-jose==3.3.0
 
