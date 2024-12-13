@@ -19,12 +19,12 @@ def get_database_instance():
     automáticamente después de usarla.
     """
     # Obtener la URI de MongoDB desde las variables de entorno
-    mongo_uri = os.getenv("MONGODB_URI")
+    mongo_uri = os.getenv("TEST_MONGODB_URI")
     
     # Verificar si la URI está definida
     if not mongo_uri:
         # Lanzar un error si la variable de entorno no está definida
-        raise ValueError("La variable de entorno MONGODB_URI no está definida")
+        raise ValueError("La variable de entorno TEST_MONGODB_URI no está definida")
     
     # Crear un cliente MongoDB usando la URI
     client = MongoClient(mongo_uri)
